@@ -1,0 +1,350 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#crypto_BTC{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+	width: 3px;
+	height: 100px;
+	background-color: #9dc6d8;
+}
+
+#crypto_BTC_circle{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid #9dc6d8;
+}
+
+
+#crypto_BCH{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+	width: 3px;
+	height: 100px;
+	background-color: #00b3ca;
+}
+
+#crypto_BCH_circle{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid #00b3ca;
+}
+
+
+#crypto_ETH{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+	width: 3px;
+	height: 100px;
+	background-color: #7dd0b6;
+}
+
+#crypto_ETH_circle{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid #7dd0b6;
+}
+
+
+
+
+#crypto_BSV{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+	width: 3px;
+	height: 100px;
+	background-color: #1d4e89;
+}
+
+#crypto_BSV_circle{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid #1d4e89;
+}
+
+
+
+
+#crypto_LTC{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+	width: 3px;
+	height: 100px;
+	background-color: #c8b5a7;
+}
+
+#crypto_LTC_circle{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid #c8b5a7;
+}
+
+
+
+
+#crypto_REP{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+	width: 3px;
+	height: 100px;
+	background-color: #e38690;
+}
+
+#crypto_REP_circle{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid #e38690;
+}
+
+
+
+
+#crypto_ETC{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+	width: 3px;
+	height: 100px;
+	background-color: #f69256;
+}
+
+#crypto_ETC_circle{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid #f69256;
+}
+
+
+
+
+#crypto_EOS{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+	width: 3px;
+	height: 100px;
+	background-color: #ead98b;
+}
+
+#crypto_EOS_circle{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid #ead98b;
+}
+
+
+
+
+#crypto_LINK{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+	width: 3px;
+	height: 100px;
+	background-color: #965251;
+}
+
+#crypto_LINK_circle{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid #965251;
+}
+
+
+
+
+#crypto_DASH{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	border-radius: 3px;
+	width: 3px;
+	height: 100px;
+	background-color: #c6cccc;
+}
+
+#crypto_DASH_circle{
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	  width: 100px;
+      height: 100px;
+      background: transparent;
+      border-radius: 50%;
+      border: 1px solid #c6cccc;
+}
+
+.wrapper{
+	margin: 30px;
+
+}
+
+li{
+	margin: 5px;
+	font-family: Helvetica;
+}
+
+
+.list_btc{
+	color: #9dc6d8;
+}
+
+.list_bch{
+	color: #00b3ca;
+}
+
+.list_eth{
+	color: #7dd0b6;
+}
+
+.list_bsv{
+	color: #1d4e89;
+}
+
+.list_lth{
+	color: #c8b5a7;
+}
+
+.list_rep{
+	color: #e38690;
+}
+
+.list_etc{
+	color: #f69256;
+}
+
+.list_eos{
+	color: #ead98b;
+}
+
+.list_Link{
+	color: #965251;
+}
+
+.list_dash{
+	color: #c6cccc;
+}
+
+
