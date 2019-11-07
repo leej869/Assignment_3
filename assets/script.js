@@ -117,45 +117,86 @@ var fetchcrypto = function(){
 		var dashChange = jsonResults.RAW.DASH.USD.CHANGEPCT24HOUR;
 
 
+		var btcDirection = 360;
+		if(btcChange < 0){ btcDirection = -360 };
+		var btcSpeed = Math.abs(btcChange);
+
+		var bchDirection = 360;
+		if(bchChange < 0){ bchDirection = -360 };
+		var bchSpeed = Math.abs(bchChange);
+
+		var ethDirection = 360;
+		if(ethChange < 0){ ethDirection = -360 };
+		var ethSpeed = Math.abs(ethChange);
+
+		var bsvDirection = 360;
+		if(bsvChange < 0){ bsvDirection = -360 };
+		var bsvSpeed = Math.abs(bsvChange);
+
+		var ltcDirection = 360;
+		if(ltcChange < 0){ ltcDirection = -360 };
+		var ltcSpeed = Math.abs(ltcChange);
+
+		var repDirection = 360;
+		if(repChange < 0){ repDirection = -360 };
+		var repSpeed = Math.abs(repChange);
+
+		var etcDirection = 360;
+		if(etcChange < 0){ etcDirection = -360 };
+		var etcSpeed = Math.abs(etcChange);
+
+		var eosDirection = 360;
+		if(eosChange < 0){ eosDirection = -360 };
+		var eosSpeed = Math.abs(eosChange);
+
+		var linkDirection = 360;
+		if(linkChange < 0){ linkDirection = -360 };
+		var linkSpeed = Math.abs(linkChange);		
+
+		var dashDirection = 360;
+		if(dashChange < 0){ bchDirection = -360 };
+		var dashSpeed = Math.abs(dashChange);
 
 
-		TweenMax.to("#crypto_BTC", 1, {rotation: `${btcChange}`, repeat:-1, ease: Power0.easeNone,})
+
+
+		TweenMax.to("#crypto_BTC", btcSpeed, {rotation: `${btcDirection}`, repeat:-1, ease: Power0.easeNone,})
 		TweenMax.to("#crypto_BTC", 4, {height:`${btcPrice}px`, ease: Elastic.easeOut.config(1, 0.3),})
 		TweenMax.to("#crypto_BTC_circle", 4, {height:`${btcPrice}px`,width:`${btcPrice}px`, ease: Elastic.easeOut.config(1, 0.3),})
 
-		TweenMax.to("#crypto_BCH", 2, {rotation: `${bchChange}`, repeat:-1, ease: Power0.easeNone})
+		TweenMax.to("#crypto_BCH", bchSpeed, {rotation: `${bchDirection}`, repeat:-1, ease: Power0.easeNone})
 		TweenMax.to("#crypto_BCH", 4, {height:`${bchPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 		TweenMax.to("#crypto_BTC_circle", 4, {height:`${bchPrice10}px`,width:`${bchPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 
-		TweenMax.to("#crypto_ETH", 3, {rotation: `${ethChange}`, repeat:-1, ease: Power0.easeNone})
+		TweenMax.to("#crypto_ETH", 3, {rotation: `${ethDirection}`, repeat:-1, ease: Power0.easeNone})
 		TweenMax.to("#crypto_ETH", 4, {height:`${ethPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 		TweenMax.to("#crypto_ETH_circle", 4, {height:`${ethPrice10}px`,width:`${ethPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 
-		TweenMax.to("#crypto_BSV", 4, {rotation: `${bsvChange}`, repeat:-1, ease: Power0.easeNone})
+		TweenMax.to("#crypto_BSV", 4, {rotation: `${bsvDirection}`, repeat:-1, ease: Power0.easeNone})
 		TweenMax.to("#crypto_BSV", 4, {height:`${bsvPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 		TweenMax.to("#crypto_BSV_circle", 4, {height:`${bsvPrice10}px`,width:`${bsvPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 
-		TweenMax.to("#crypto_LTC", 5, {rotation: `${ltcChange}`, repeat:-1, ease: Power0.easeNone})
+		TweenMax.to("#crypto_LTC", 5, {rotation: `${ltcDirection}`, repeat:-1, ease: Power0.easeNone})
 		TweenMax.to("#crypto_LTC", 4, {height:`${ltcPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 		TweenMax.to("#crypto_LTC_circle", 4, {height:`${ltcPrice10}px`,width:`${ltcPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 
-		TweenMax.to("#crypto_REP", 6, {rotation: `${repChange}`, repeat:-1, ease: Power0.easeNone})
+		TweenMax.to("#crypto_REP", 6, {rotation: `${repDirection}`, repeat:-1, ease: Power0.easeNone})
 		TweenMax.to("#crypto_REP", 4, {height:`${repPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 		TweenMax.to("#crypto_REP_circle", 4, {height:`${repPrice10}px`,width:`${repPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 
-		TweenMax.to("#crypto_ETC", 7, {rotation: `${etcChange}`, repeat:-1, ease: Power0.easeNone})
+		TweenMax.to("#crypto_ETC", 7, {rotation: `${etcDirection}`, repeat:-1, ease: Power0.easeNone})
 		TweenMax.to("#crypto_ETC", 4, {height:`${etcPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 		TweenMax.to("#crypto_ETC_circle", 4, {height:`${etcPrice10}px`,width:`${etcPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 
-		TweenMax.to("#crypto_EOS", 8, {rotation: `${eosChange}`, repeat:-1, ease: Power0.easeNone})
+		TweenMax.to("#crypto_EOS", 8, {rotation: `${eosDirection}`, repeat:-1, ease: Power0.easeNone})
 		TweenMax.to("#crypto_EOS", 4, {height:`${eosPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 		TweenMax.to("#crypto_EOS_circle", 4, {height:`${eosPrice10}px`,width:`${eosPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 
-		TweenMax.to("#crypto_LINK", 9, {rotation: `${linkChange}`, repeat:-1, ease: Power0.easeNone})
+		TweenMax.to("#crypto_LINK", 9, {rotation: `${linkDirection}`, repeat:-1, ease: Power0.easeNone})
 		TweenMax.to("#crypto_LINK", 4, {height:`${linkPrice10}x`, ease: Elastic.easeOut.config(1, 0.3),})
 		TweenMax.to("#crypto_LINK_circle", 4, {height:`${linkPrice10}px`,width:`${linkPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 
-		TweenMax.to("#crypto_DASH", 10, {rotation: `${dashChange}`, repeat:-1,ease: Power0.easeNone})
+		TweenMax.to("#crypto_DASH", 10, {rotation: `${dashDirection}`, repeat:-1,ease: Power0.easeNone})
 		TweenMax.to("#crypto_DASH", 4, {height:`${dashPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 		TweenMax.to("#crypto_DASH_circle", 4, {height:`${dashPrice10}px`,width:`${dashPrice10}px`, ease: Elastic.easeOut.config(1, 0.3),})
 
